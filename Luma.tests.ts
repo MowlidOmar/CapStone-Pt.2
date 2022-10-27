@@ -1,6 +1,6 @@
 import { Sport } from "./pageObjects";
 
-const Sport = new Sport ();
+const Sport = new objectPage ();
 
 test("nav links functionality", async () => {
   await Sport.navigate()
