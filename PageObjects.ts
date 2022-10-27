@@ -1,7 +1,7 @@
 import { BasePage } from "./basePage";
 import {By} from 'selenium-webdriver'
 
-export class Sport extends BasePage {
+export class pageObjects extends basePage {
 
 
 whatsNewBtn: By = By.xpath('////*[@id="ui-id-3"]/span'
